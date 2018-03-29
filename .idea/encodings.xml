@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/HanldMessageThread.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/KafkaConsumer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/productRecorver/OrderTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/productRecorver/YyftKafkaProduct.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/service/kafkaimpl/ActiveService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/service/redisimpl/BinduidService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/service/redisimpl/RegiServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/utils/JedisUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/cn/com/yyft/utils/PropertiesHelp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/log4j.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/config.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/config_pre.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/resources/consumer.properties" charset="UTF-8" />
+  </component>
+</project>
