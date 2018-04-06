@@ -77,10 +77,7 @@ public class RegiServiceImpl implements RedisService {
                     String expandCodeChild = "";
                     if (expandCodes.length != 1) {
                         //isEmpty()方法等价于 string.length == 0
-//                        if (!expandCodes[1].isEmpty()) {
-//                            expandCodeChild = expandCodes[1];
-//                        }
-                        if (!(expandCodes[1] == null || expandCodes.length == 0)) {
+                        if (!expandCodes[1].isEmpty()) {
                             expandCodeChild = expandCodes[1];
                         }
                         var2.put("expand_code_child", expandCodeChild);

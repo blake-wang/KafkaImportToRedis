@@ -11,19 +11,19 @@ import java.net.URL;
  */
 public class Test {
     public static void main(String[] args) throws Exception {
-        String t = "aaa_".split("_",-1)[1];
-//        System.out.println(t.isEmpty());
+        String t = "aaa_".split("_", -1)[1];
+
+        System.out.println(t.isEmpty());
+
+        String b = "";
+        System.out.println("b的长度是0 吗 ？ " + b.isEmpty());
 
     }
 
 
-
-
     /**
-     * @param
-     *            :请求接口
-     * @param httpArg
-     *            :参数
+     * @param :请求接口
+     * @param httpArg :参数
      * @return 返回结果
      */
     public static String request(String httpUrl, String httpArg) {
@@ -38,7 +38,7 @@ public class Test {
                     .openConnection();
             connection.setRequestMethod("GET");
             // 填入apikey到HTTP header
-            connection.setRequestProperty("apikey",  "77ddee434a42eae270270d545c093307");
+            connection.setRequestProperty("apikey", "77ddee434a42eae270270d545c093307");
             connection.connect();
             InputStream is = connection.getInputStream();
             reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
