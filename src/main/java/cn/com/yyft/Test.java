@@ -1,12 +1,5 @@
 package cn.com.yyft;
 
-import cn.com.yyft.utils.JedisUtils;
-import cn.com.yyft.utils.RedisUtil;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisPoolConfig;
-
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -19,7 +12,7 @@ import java.net.URL;
 public class Test {
     public static void main(String[] args) throws Exception {
         String t = "aaa_".split("_",-1)[1];
-        System.out.println(t.isEmpty());
+//        System.out.println(t.isEmpty());
 
     }
 
